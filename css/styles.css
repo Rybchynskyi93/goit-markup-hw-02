@@ -47,6 +47,7 @@ span {
   line-height: 1.17;
   color: var(--accent-color);
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .header-list {
   list-style: none;
@@ -61,10 +62,15 @@ span {
   letter-spacing: 0.02em;
 }
 .header-contacts {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--second-text-color);
+  letter-spacing: 0.02em;
+}
+.header-contacts:is(:hover, :focus) {
+  color: #404bbf;
 }
 .header-contacts-item {
 }
@@ -91,6 +97,11 @@ span {
   line-height: 1.5;
   color: var(--title-color-text);
   background: #4d5ae5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.hero-btn:is(:hover, :focus) {
+  background-color: #404bbf;
 }
 
 .advantages {
@@ -103,16 +114,17 @@ span {
 .advantages-item {
 }
 .advantages-subtitle {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--second-text-color);
-}
-.advantages-text {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--main-text-color);
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+.advantages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
 }
 
 .project {
@@ -123,6 +135,9 @@ span {
   font-size: 36px;
   line-height: 1.11;
   color: var(--main-text-color);
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .project-list {
 }
@@ -133,6 +148,12 @@ span {
   background-color: var(--section-bacground-color);
 }
 .team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-text-color);
 }
 .team-list {
 }

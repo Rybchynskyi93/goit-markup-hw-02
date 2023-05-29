@@ -1,0 +1,244 @@
+:root {
+  --main-text-color: #2e2f42;
+  --second-text-color: #434455;
+  --accent-color: #4d5ae5;
+  --bacground-color: #2e2f42;
+  --title-color-text: #ffffff;
+  --section-bacground-color: #f4f4fd;
+  --project-bacground-color: #e5e5e5;
+  --portfolio-bacground-color: #e7e9fc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+}
+.header-navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+}
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--main-text-color);
+}
+.header-menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+}
+.header-contacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--second-text-color);
+}
+.header-contacts-item {
+}
+.header-contacts-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--second-text-color);
+}
+
+.hero {
+  background: var(--bacground-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--title-color-text);
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--title-color-text);
+  background: #4d5ae5;
+}
+
+.advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+
+.advantages-item {
+}
+.advantages-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--second-text-color);
+}
+.advantages-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--main-text-color);
+}
+
+.project {
+  background-color: var(--project-bacground-color);
+}
+.project-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--main-text-color);
+}
+.project-list {
+}
+.project-item {
+}
+
+.team {
+  background-color: var(--section-bacground-color);
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--main-text-color);
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--second-text-color);
+}
+
+.footer {
+  background-color: var(--bacground-color);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--title-color-text);
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--title-color-text);
+}
+
+/*--------PORTFOLIO-----------*/
+
+.header {
+  background-color: var(--portfolio-bacground-color);
+}
+.header-navigation {
+}
+.header-title {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--main-text-color);
+}
+.header-menu {
+}
+.header-menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+}
+.header-contacts {
+}
+.header-list {
+}
+.header-contacts-item {
+}
+.header-contacts-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--second-text-color);
+}
+
+.main-content {
+}
+.main-btn-list {
+}
+.main-btn-item {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+  background: var(--section-bacground-color);
+}
+.main-btn-link:is(:hover, :focus) {
+  background-color: #404bbf;
+}
+
+.main-list {
+}
+.main-item {
+}
+.main-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.main-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+.footer {
+  background-color: var(--bacground-color);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--title-color-text);
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--title-color-text);
+}

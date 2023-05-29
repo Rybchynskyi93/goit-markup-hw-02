@@ -11,6 +11,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--second-text-color);
+  background-color: var(--title-color-text);
 }
 .link {
   text-decoration: none;
@@ -25,6 +27,9 @@ ul {
 a {
   text-decoration: none;
 }
+span {
+  color: #4d5ae5;
+}
 
 .header {
 }
@@ -33,14 +38,21 @@ a {
   font-size: 16px;
   line-height: 1.5;
   color: var(--main-text-color);
+  letter-spacing: 0.03em;
 }
+
 .header-logo {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   color: var(--main-text-color);
+  letter-spacing: 0.03em;
 }
+.header-list {
+  list-style: none;
+}
+
 .header-menu-item {
   font-weight: 500;
   font-size: 16px;

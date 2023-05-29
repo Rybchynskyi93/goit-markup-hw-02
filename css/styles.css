@@ -28,9 +28,8 @@ a {
   text-decoration: none;
 }
 span {
-  color: #4d5ae5;
+  color: var(--main-text-color);
 }
-
 .header {
 }
 .header-navigation {
@@ -42,15 +41,16 @@ span {
 }
 
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: var(--main-text-color);
+  color: var(--accent-color);
   letter-spacing: 0.03em;
 }
 .header-list {
   list-style: none;
+  text-decoration: none;
 }
 
 .header-menu-item {
@@ -58,6 +58,7 @@ span {
   font-size: 16px;
   line-height: 1.5;
   color: var(--main-text-color);
+  letter-spacing: 0.02em;
 }
 .header-contacts {
   font-weight: 400;

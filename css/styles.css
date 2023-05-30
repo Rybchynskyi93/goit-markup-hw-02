@@ -63,7 +63,7 @@ span {
   letter-spacing: 0.02em;
 }
 
-.header-menu-item:is(:hover, :focus) {
+.header-menu-link:is(:hover, :focus) {
   color: #404bbf;
 }
 
@@ -75,9 +75,7 @@ span {
   color: var(--second-text-color);
   letter-spacing: 0.02em;
 }
-.header-contacts:is(:hover, :focus) {
-  color: #404bbf;
-}
+
 .header-contacts-item {
 }
 
@@ -86,6 +84,9 @@ span {
   font-size: 16px;
   line-height: 1.5;
   color: var(--second-text-color);
+}
+.header-contacts-link:is(:hover, :focus) {
+  color: #404bbf;
 }
 
 .hero {
@@ -123,6 +124,7 @@ span {
   color: var(--second-text-color);
 }
 .advantages-list {
+  list-style: none;
 }
 
 .advantages-item {
@@ -154,6 +156,7 @@ span {
   text-transform: capitalize;
 }
 .project-list {
+  list-style: none;
 }
 .project-item {
 }
@@ -170,6 +173,7 @@ span {
   color: var(--main-text-color);
 }
 .team-list {
+  list-style: none;
   background-color: #ffffff;
 }
 .team-item {

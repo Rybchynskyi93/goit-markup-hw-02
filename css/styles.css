@@ -185,9 +185,9 @@ span {
 }
 .team-list {
   list-style: none;
-  background-color: #ffffff;
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-subtitle {
   font-weight: 500;
@@ -220,7 +220,7 @@ span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--footer-text-color);
+  color: #f4f4fd;
 }
 .footer-span {
   color: var(--section-bacground-color);

@@ -341,6 +341,7 @@ span {
 .footer-text {
   color: var(--footer-text-color);
   font-size: 16px;
+  color: var(--footer-text-color);
   line-height: 1.5;
 }
 .footer-span {

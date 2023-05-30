@@ -74,6 +74,7 @@ span {
 }
 .header-contacts-item {
 }
+
 .header-contacts-link {
   font-weight: 400;
   font-size: 16px;
@@ -89,6 +90,8 @@ span {
   font-size: 56px;
   line-height: 1.07;
   color: var(--title-color-text);
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .hero-btn {
   font-family: inherit;
@@ -107,6 +110,11 @@ span {
 .advantages {
 }
 .advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
 }
 .advantages-list {
 }
@@ -156,6 +164,7 @@ span {
   color: var(--main-text-color);
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-item {
 }
@@ -164,6 +173,7 @@ span {
   font-size: 20px;
   line-height: 1.2;
   color: var(--main-text-color);
+  letter-spacing: 0.02em;
 }
 
 .team-text {
@@ -171,6 +181,7 @@ span {
   font-size: 16px;
   line-height: 1.5;
   color: var(--second-text-color);
+  letter-spacing: 0.02em;
 }
 
 .footer {
@@ -181,13 +192,15 @@ span {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--title-color-text);
+  text-transform: uppercase;
 }
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--title-color-text);
+  letter-spacing: 0.02em;
 }
 
 /*--------PORTFOLIO-----------*/

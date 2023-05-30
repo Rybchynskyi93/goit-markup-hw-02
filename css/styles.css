@@ -7,6 +7,7 @@
   --section-bacground-color: #f4f4fd;
   --project-bacground-color: #e5e5e5;
   --portfolio-bacground-color: #e7e9fc;
+  --footer-text-color: #f4f4fd;
 }
 
 body {
@@ -184,10 +185,8 @@ span {
 }
 .team-list {
   list-style: none;
-  background-color: #ffffff;
 }
 .team-item {
-  background-color: #ffffff;
 }
 .team-subtitle {
   font-weight: 500;
@@ -198,7 +197,6 @@ span {
 }
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--second-text-color);
@@ -221,7 +219,7 @@ span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--title-color-text);
+  color: var(--footer-text-color);
 }
 .footer-span {
   color: var(--section-bacground-color);
@@ -287,6 +285,7 @@ span {
   list-style: none;
 }
 .main-btn-item {
+  background-color: var(--footer-text-color);
 }
 .main-btn-link {
   font-family: "Roboto", sans-serif;

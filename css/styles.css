@@ -206,8 +206,8 @@ span {
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
-  color: var(--title-color-text);
   letter-spacing: 0.02em;
+  color: var(--title-color-text);
 }
 .footer-span {
   color: var(--section-bacground-color);
@@ -261,6 +261,7 @@ span {
 .main-content {
 }
 .main-btn-list {
+  list-style: none;
 }
 .main-btn-item {
   font-family: "Roboto", sans-serif;
@@ -273,14 +274,19 @@ span {
   background: var(--section-bacground-color);
 }
 .main-btn-link:is(:hover, :focus) {
-  background-color: #404bbf;
   color: #ffffff;
+  background-color: #404bbf;
 }
 
 .main-list {
   list-style: none;
 }
 .main-item {
+  text-decoration: none;
+  list-style: none;
+}
+
+.main-item-link {
   text-decoration: none;
 }
 .main-title {

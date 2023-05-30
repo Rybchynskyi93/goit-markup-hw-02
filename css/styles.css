@@ -285,7 +285,6 @@ span {
   list-style: none;
 }
 .main-btn-item {
-  background-color: var(--footer-text-color);
 }
 .main-btn-link {
   font-family: "Roboto", sans-serif;
@@ -294,6 +293,7 @@ span {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  background-color: var(--footer-text-color);
   cursor: pointer;
 }
 .main-btn-link:is(:hover, :focus) {

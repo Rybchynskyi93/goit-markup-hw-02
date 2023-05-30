@@ -52,6 +52,7 @@ span {
 .header-list {
   list-style: none;
   text-decoration: none;
+  color: var(--main-text-color);
 }
 
 .header-menu-item {
@@ -172,6 +173,7 @@ span {
   background-color: #ffffff;
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-subtitle {
   font-weight: 500;
@@ -193,7 +195,7 @@ span {
   background-color: var(--bacground-color);
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -207,6 +209,9 @@ span {
   color: var(--title-color-text);
   letter-spacing: 0.02em;
 }
+.footer-span {
+  color: var(--section-bacground-color);
+}
 
 /*--------PORTFOLIO-----------*/
 
@@ -216,14 +221,20 @@ span {
 .header-navigation {
 }
 .header-title {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--main-text-color);
 }
+.logo-span {
+}
+
 .header-menu {
 }
+
 .header-menu-item {
   font-weight: 500;
   font-size: 16px;
@@ -232,6 +243,10 @@ span {
 }
 .header-contacts {
 }
+.header-contacts:is(:hover, :focus) {
+  color: #404bbf;
+}
+
 .header-list {
 }
 .header-contacts-item {
@@ -248,7 +263,7 @@ span {
 .main-btn-list {
 }
 .main-btn-item {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -259,11 +274,14 @@ span {
 }
 .main-btn-link:is(:hover, :focus) {
   background-color: #404bbf;
+  color: #ffffff;
 }
 
 .main-list {
+  list-style: none;
 }
 .main-item {
+  text-decoration: none;
 }
 .main-title {
   font-weight: 500;

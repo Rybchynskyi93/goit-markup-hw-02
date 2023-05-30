@@ -56,6 +56,11 @@ span {
 }
 
 .header-menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+  letter-spacing: 0.02em;
 }
 
 .header-menu-link {
@@ -77,6 +82,8 @@ span {
   line-height: 1.5;
   color: var(--second-text-color);
   letter-spacing: 0.02em;
+}
+.header-contacts-list {
 }
 
 .header-contacts-item {
@@ -214,7 +221,7 @@ span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--title-color-text);
+  color: var(--section-bacground-color);
 }
 .footer-span {
   color: var(--section-bacground-color);
@@ -223,7 +230,6 @@ span {
 /*--------PORTFOLIO-----------*/
 
 .header {
-  background-color: var(--portfolio-bacground-color);
 }
 .header-navigation {
 }
@@ -281,14 +287,6 @@ span {
   list-style: none;
 }
 .main-btn-item {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  cursor: pointer;
-  background: var(--section-bacground-color);
 }
 .main-btn-link {
   font-family: "Roboto", sans-serif;
@@ -298,7 +296,6 @@ span {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
-  background: var(--section-bacground-color);
 }
 .main-btn-link:is(:hover, :focus) {
   color: #ffffff;

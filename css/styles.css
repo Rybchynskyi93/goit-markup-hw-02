@@ -61,6 +61,11 @@ span {
   color: var(--main-text-color);
   letter-spacing: 0.02em;
 }
+
+.header-menu-item:is(:hover, :focus) {
+  color: #404bbf;
+}
+
 .header-contacts {
   font-style: normal;
   font-weight: 400;
@@ -89,9 +94,9 @@ span {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  color: var(--title-color-text);
   letter-spacing: 0.02em;
   text-align: center;
+  color: var(--title-color-text);
 }
 .hero-btn {
   font-family: inherit;
@@ -126,7 +131,7 @@ span {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--second-text-color);
+  color: var(--main-text-color);
 }
 .advantages-text {
   font-size: 16px;
@@ -277,15 +282,20 @@ span {
   background-color: var(--bacground-color);
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: var(--title-color-text);
+  color: var(--accent-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--title-color-text);
+}
+.footer-span {
+  color: #f4f4fd;
 }
